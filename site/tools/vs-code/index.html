@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://buhaoqi.com/scratch/stage/">
+        <link rel="canonical" href="https://buhaoqi.com/tools/vs-code/">
       
       
       
@@ -17,7 +17,7 @@
     
     
       
-        <title>舞台（Stage） - 不好奇</title>
+        <title>Vs code - 不好奇</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#macvs-codec" class="md-skip">
           跳转至
         </a>
       
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              舞台（Stage）
+              Vs code
             
           </span>
         </div>
@@ -187,7 +187,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../../scratch/" class="md-tabs__link">
         Scratch3.0教程
       </a>
     </li>
@@ -260,7 +260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../scratch/" class="md-nav__link">
         首页
       </a>
     </li>
@@ -274,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about-scratch/" class="md-nav__link">
+      <a href="../../scratch/about-scratch/" class="md-nav__link">
         Scratch简介
       </a>
     </li>
@@ -288,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../user-interface/" class="md-nav__link">
+      <a href="../../scratch/user-interface/" class="md-nav__link">
         Scratch编辑器
       </a>
     </li>
@@ -302,7 +302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sprite-basics/" class="md-nav__link">
+      <a href="../../scratch/sprite-basics/" class="md-nav__link">
         角色基础
       </a>
     </li>
@@ -316,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../exercises/ex01-Running-cat/" class="md-nav__link">
+      <a href="../../scratch/exercises/ex01-Running-cat/" class="md-nav__link">
         案例：奔走的角色猫
       </a>
     </li>
@@ -355,30 +355,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    舞台是什么
+  <a href="#macvs-codec" class="md-nav__link">
+    如何在Mac版的VS Code中运行C++
+  </a>
+  
+    <nav class="md-nav" aria-label="如何在Mac版的VS Code中运行C++">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    C++
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    舞台与角色的区别
+        
+          <li class="md-nav__item">
+  <a href="#code-runner" class="md-nav__link">
+    Code Runner
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    舞台尺寸
+        
+          <li class="md-nav__item">
+  <a href="#clang" class="md-nav__link">
+    Clang
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    历史
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -398,59 +404,14 @@
 
 
 
-  <h1>舞台（Stage）</h1>
+  <h1>Vs code</h1>
 
-<h2 id="_1">舞台是什么</h2>
-<ul>
-<li>舞台是项目的背景。</li>
-<li>舞台可以添加脚本，可以设置背景、声音。</li>
-<li>舞台的默认的尺寸是480px(宽) X 360px(高)。</li>
-<li>所有的角色在舞台上呈现并且有特定的坐标位置。</li>
-</ul>
-<h2 id="_2">舞台与角色的区别</h2>
-<p>舞台和角色之间有很多差异。其中包括以下内容：</p>
-<ul>
-<li>
-<p>舞台是静止的，</p>
-<ul>
-<li>舞台不能使用运动块</li>
-<li>舞台不能使用大小块</li>
-<li>舞台不能使用“传感”类别中的“触摸”块（因为它总是触摸所有精灵）</li>
-<li>舞台不能使用 Distance to () 块</li>
-<li>在 Scratch 1.4 中，选择带有运动块的舞台会将其更改为传感块</li>
-<li>舞台没有笔，因此除了擦除全部之外没有笔扩展块</li>
-</ul>
-</li>
-<li>
-<p>舞台不会说话</p>
-<ul>
-<li>舞台不能使用 Looks 类别中的“say”或“think”块（但是它可以使用 Ask () 和 Wait 块）</li>
-</ul>
-</li>
-<li>舞台有背景而不是造型</li>
-<li>舞台无法被克隆</li>
-<li>舞台无法重命名</li>
-<li>不能使用“外观”类别中的“显示”或“隐藏”块</li>
-<li>它不能改变层——它总是在最后一层</li>
-<li>除非在小舞台布局中，否则始终为 480×360</li>
-<li>选择舞台时创建的变量不能是本地变量，这是因为全局变量内部保存在舞台上</li>
-</ul>
-<p>舞台上没有的块仍然可以从其他精灵中拖动，但这些块没有任何效果。</p>
-<h2 id="_3">舞台尺寸</h2>
-<p>舞台可以有 3 种不同的尺寸：</p>
-<ul>
-<li>常规：普通模式；舞台尺寸为480×360像素。最简单的比例是 4:3。</li>
-<li>小舞台：这是项目编辑器中舞台的尺寸。它使舞台的尺寸更小，以提供更多的空间来编写脚本。它将舞台的分辨率降低至 240x180 像素——正常尺寸的四分之一。可以通过切换位于项目编辑器右上角全屏按钮旁边的舞台大小开关来激活小舞台布局。选择此选项后，舞台将缩小，并且精灵窗格将调整其宽度和高度以适应。</li>
-<li>全屏：使播放器适合网络浏览器的当前分辨率。</li>
-</ul>
-<h2 id="_4">历史</h2>
-<p>“舞台”是在 Scratch 0.2 中引入的。最初舞台与Sprite Corral中的角色一同出现，称为“背景”。</p>
-<p>创建舞台时，舞台位于屏幕的右侧。</p>
-<ul>
-<li>在 Scratch 2.0 中，舞台移至屏幕左侧。</li>
-<li>在 Scratch 3.0 中，它又被移回屏幕右侧。</li>
-<li>在 Scratch 3.0 中，如果所选语言使用从右到左的脚本，则舞台将位于屏幕的左侧。</li>
-</ul>
+<h2 id="macvs-codec">如何在Mac版的VS Code中运行C++</h2>
+<h3 id="c">C++</h3>
+<h3 id="code-runner">Code Runner</h3>
+<p>Code Runner使得VS Code运行C++更容易。</p>
+<h3 id="clang">Clang</h3>
+<p>Clange是编译器。</p>
 
 
 
