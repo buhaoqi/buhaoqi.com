@@ -16,17 +16,12 @@ page-type: "basic"
 
 ## Scratch资源
 
-Scratch官网：[https://scratch.mit.edu/](https://scratch.mit.edu/){target=_blank}
-
-Scratch(3.29.1)软件下载：
-
-- 官网下载: [https://scratch.mit.edu/download](https://scratch.mit.edu/download){target=_blank}
-- 天翼云盘下载(Windows 10+ ): [https://cloud.189.cn/t/63EBvaj2quIb](https://cloud.189.cn/t/63EBvaj2quIb){target=_blank} 访问码：hqy6
-- 天翼云盘下载(macOS 10.13+ ): [https://cloud.189.cn/t/rUnEbyFZrAF3](https://cloud.189.cn/t/rUnEbyFZrAF3){target=_blank} 访问码：zo0c
-
-Scratch文档：[https://en.scratch-wiki.info/wiki/Scratch_Wiki:Table_of_Contents/Program](https://en.scratch-wiki.info/wiki/Scratch_Wiki:Table_of_Contents/Program){target=_blank}
-
-Scratch教程：[https://en.scratch-wiki.info/wiki/Category:Tutorials](https://en.scratch-wiki.info/wiki/Category:Tutorials){target=_blank}
-
-Scratch猫图片下载: [https://en.scratch-wiki.info/wiki/Scratch_Cat](https://en.scratch-wiki.info/wiki/Scratch_Cat){target=_blank}
+- Scratch官网：[https://scratch.mit.edu/](https://scratch.mit.edu/){target=_blank}
+- Scratch(3.29.1)软件下载：
+    - 官网下载: [https://scratch.mit.edu/download](https://scratch.mit.edu/download){target=_blank}
+    - 天翼云盘下载(Windows 10+ ): [https://cloud.189.cn/t/63EBvaj2quIb](https://cloud.189.cn/t/63EBvaj2quIb){target=_blank} 访问码：hqy6
+    - 天翼云盘下载(macOS 10.13+ ): [https://cloud.189.cn/t/rUnEbyFZrAF3](https://cloud.189.cn/t/rUnEbyFZrAF3){target=_blank} 访问码：zo0c
+- Scratch文档：[https://en.scratch-wiki.info/wiki/Scratch_Wiki:Table_of_Contents/Program](https://en.scratch-wiki.info/wiki/Scratch_Wiki:Table_of_Contents/Program){target=_blank}
+- Scratch教程：[https://en.scratch-wiki.info/wiki/Category:Tutorials](https://en.scratch-wiki.info/wiki/Category:Tutorials){target=_blank}
+- Scratch猫图片下载: [https://en.scratch-wiki.info/wiki/Scratch_Cat](https://en.scratch-wiki.info/wiki/Scratch_Cat){target=_blank}
 
