@@ -10,6 +10,12 @@ page-type: "basic"
 ---
 
 
+## 参考
+
+- [7 Easy Scratch Project Ideas](https://www.codewizardshq.com/scratch-project-ideas/)
+- [Scratch Project Ideas for Kids and Beginners](https://www.codewizardshq.com/scratch-project-ideas/#scratcher)
+- [How to make a scrolling background in Scratch](https://www.codingal.com/coding-for-kids/blog/make-a-scrolling-background-in-scratch/)
+
 ## 技巧
 - 跳跃（3PicoShow）
 - 切换背景造型（1DancingGirl）
@@ -91,12 +97,19 @@ page-type: "basic"
 - Codakid：[https://codakid.com/scratch-sprites/](https://codakid.com/scratch-sprites/)
 - 打包项目：[https://packager.turbowarp.org/](https://packager.turbowarp.org/)
 - 变量：https://www.geeksforgeeks.org/variables-in-scratch-programming/
+## 资料
 
+- https://funtech.co.uk/latest/what-is-sprite-in-scratch-coding
+- https://www.idtech.com/blog/what-are-scratch-sprites
+- https://www.codingkids.com.au/scratch/new-to-sprites-in-scratch/
 
+## 素材下载
+
+- 图标下载：https://www.flaticon.com/
 
 
 ### 导航条（Navigation Bar）
-![导航条](./images/editor/ui-nav.jpeg)
+![导航条](./images/editor/pane-nav.jpeg)
 导航条的功能主要包括：
 
 - 语言选项：修改界面语言
@@ -108,7 +121,7 @@ page-type: "basic"
 ### 代码面板(Code Pane)
 代码面板是为角色编写程序(控制精灵)的主要区域。
 
-![代码选项卡](./images/editor/ui-code.png)
+![代码选项卡](./images/editor/pane-code.png)
 
 代码面板由两部分构成：
 
@@ -128,14 +141,12 @@ page-type: "basic"
 ### 造型面板(Costume Pane)
 造型选项卡(Tabs)允许用户使用绘画编辑器更改精灵的外观。
 
-![造型选项卡](./images/editor/ui-costume.jpeg)
-
-
+![造型选项卡](./images/editor/pane-costume.jpeg)
 
 ### 声音面板(Sounds Pane)
 声音选项卡(Tabs)使用声音编辑器来编辑声音。
 
-![声音选项卡](./images/editor/ui-sound.jpeg)
+![声音选项卡](./images/editor/pane-sound.jpeg)
 
 
 ### 角色窗
@@ -170,3 +181,65 @@ Scratch 是一种多角色的编程语言。
     - 我的块
     - 任何扩展的其他类别
 - 有些块可以移动角色或更改其外观，有些可以与其他角色或舞台交互，而其他块则执行内部操作，例如数学或更改变量和列表。
+
+## 设计颜色值
+
+- `00BFF3` 浅蓝色
+- `7501CB` 紫色
+- `0D8E6A` 绿色
+- `FFC617` 黄色
+
+
+
+
+
+## 关于少儿编程
+
+在当今的数字世界中，编码是一项基本技能。开始学习永远不会太早。许多人认为，学校应该将编程与数学和阅读等其他传统科目一起教授。计算机是工具。虽然学习编程一开始可能会令人沮丧，但如果你选择坚持下去，你将能够做出一些精彩的事情。
+
+1. 编程可以帮助孩子培养逻辑思维和解决问题的能力。
+2. 编程教会孩子如何在团队中良好工作。
+3. 学习编码打开就业机会之门。
+4. 学习编码可以让孩子们对技术更有信心。
+
+张雪峰老师谈：哪些孩子适合学编程
+
+> 不是身边很多孩子从小就在学习编程吗？在小学阶段，通过编程启蒙构建孩子对于编程的认知，了解编程的语言逻辑、代码逻辑，而且在学习编程的过程当中会使用到大量的数学知识，数学思维，还有相关的方法。学习编程呢，对于希望在理科上有所提升的孩子是如虎添翼，那到底哪些孩子适合学编程呢？一是好奇心重的孩子，他们想象力特别丰富，非常适合编程这种创意类的项目。动手又动脑，因为编程啊，是一种思维方式和解决问题的工具，通过编程，我们可以将抽象的想法转化为具体的实现，创造出各种应用和软件。少儿编程则是针对少年儿童的编程教育，主要是通过教授编程语言和编程思维来培养孩子的逻辑思维、创新能力和解决问题的能力。整个学习的过程呢，也是从易到难，从最基础的图形化体能过渡Python，再尝试测试C++等高级编程语言的学习。二是平时做事比较粗心，缺乏规划的孩子。编程讲究逻辑的缜密性，在学习编程的过程中，可以在早期阶段培养孩子良好的思维习惯和解决问题的能力，为他们未来的学习和职业生涯打下坚实的基础。但千万别以为学了少儿编程以后，孩子就能成为程序员了，那就太片面了。第三呢，也是最重要的一点，就是可以利用编程来规划科技特长生路线，助力孩子未来升学。
+
+乔布斯：人人应该学编程
+
+>"I think everybody in this country should learn how to program a computer, should learn a computer language, because it teaches you how to think. I view computer science as a liberal art. It should be something that everyone takes."  “我认为这个国家的每个人都应该学习如何编程计算机，应该学习计算机语言，因为它教你如何思考。我认为计算机科学是一门文科。它应该是每个人都学习的东西。”
+
+
+
+## 角色的三种功能
+创建角色后，可以对角色进行编程、更换造型和添加声音的操作。
+
+### 编程功能
+每个角色都有自己的脚本区域，可以使用指令（图形块）控制角色，从而编写程序。
+
+- 调整角色大小
+- 旋转角色
+- 添加动画和效果
+- 控制角色如何与舞台上的其他元素（例如墙壁和平台）交互。
+  
+### 造型功能
+造型是角色的外观，或者说衣服。通过造型可以改变角色的外观。
+
+- 每个角色可以拥有多个造型，但至少拥有一个造型。
+- 用途：造型最常见的用途是制作动画。
+- 创建造型：方法1. 从内置造型库中添加一个造型； 方法2. 使用绘画编辑器手动绘制一个； 方法3. 从电脑导入图片，尤其GIF图片，Scratch会自动分割GIF成多个造型。
+- 更换造型：如果希望更换角色的造型，可以使用“外观”图形块。
+- 编辑造型：方法1:使用像素绘制造型 方法2:使用矢量线条绘制造型
+- 删除造型：点击造型图标右上角的“X”可以删除造型
+### 添加声音
+
+声音面板让角色可以绑定声音。
+
+打开声音面板，找到“选择一个声音”按钮，可以为角色添加声音：
+
+- 可以从内置声音库中选择并添加声音
+- 也可以从本地电脑中上传声音
+- 还可以自己录制声音
+
+

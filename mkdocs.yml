@@ -2,8 +2,8 @@ site_name: 不好奇
 site_url: https://buhaoqi.com/
 
 # Repository
-repo_name: buhaoqi/buhaoqi
-repo_url: https://github.com/buhaoqi/buhaoqi.git
+# repo_name: buhaoqi/buhaoqi
+# repo_url: https://github.com/buhaoqi/buhaoqi.git
 
 # Copyright
 copyright: Copyright &copy; 2021 - 2023 不好奇 <br /><a target="_blank" href="https://beian.miit.gov.cn/" ><img src="/assets/gonganbei.png" />湘公网安备 43011102002242号</a> <a target="_blank" href="https://beian.miit.gov.cn/" >湘ICP备2022014446号-1</a>
@@ -56,18 +56,11 @@ markdown_extensions:
   
 # Page tree
 nav:
-  - 首页: index.md
   - Scratch3.0教程:
     - scratch/index.md
     - scratch/about-scratch.md
     - scratch/user-interface.md
-    - scratch/sprite.md
-    - scratch/blocks.md
-    - scratch/costume.md
-    - scratch/stage.md
-    - scratch/backdrop.md
-    - scratch/broadcast.md
-    - scratch/extensions.md
-    - scratch/preparation.md
-    - scratch/notes.md
+    - scratch/sprite-basics.md
+    - scratch/exercises/ex01-Running-cat.md
+    
   
